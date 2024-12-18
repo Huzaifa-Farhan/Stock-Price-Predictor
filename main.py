@@ -112,4 +112,4 @@ pred_price = model.predict(X_test_last)
 
 # Undo the scaling
 pred_price = scaler.inverse_transform(pred_price)
-print(f'Predicted Close Price for the next day: ${pred_price[0][0]:.2f}')
+print(f'Predicted Close Price for the next day: ${pred_price[0][0]:.2f}'
